@@ -5836,41 +5836,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2205991264967446506, guid: 31e33e13035d8c646bcb7c112289b96b,
-        type: 3}
-      propertyPath: m_fontStyle
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2205991264967446506, guid: 31e33e13035d8c646bcb7c112289b96b,
-        type: 3}
-      propertyPath: m_fontColor.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2205991264967446506, guid: 31e33e13035d8c646bcb7c112289b96b,
-        type: 3}
-      propertyPath: m_fontColor.g
-      value: 0.80137265
-      objectReference: {fileID: 0}
-    - target: {fileID: 2205991264967446506, guid: 31e33e13035d8c646bcb7c112289b96b,
-        type: 3}
-      propertyPath: m_fontColor.r
-      value: 0.8679245
-      objectReference: {fileID: 0}
-    - target: {fileID: 2205991264967446506, guid: 31e33e13035d8c646bcb7c112289b96b,
-        type: 3}
-      propertyPath: m_sharedMaterial
-      value: 
-      objectReference: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
-    - target: {fileID: 2205991264967446506, guid: 31e33e13035d8c646bcb7c112289b96b,
-        type: 3}
-      propertyPath: m_fontColor32.rgba
-      value: 4278242525
-      objectReference: {fileID: 0}
-    - target: {fileID: 2205991264969713143, guid: 31e33e13035d8c646bcb7c112289b96b,
-        type: 3}
-      propertyPath: m_UiScaleMode
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2205991265939815778, guid: 31e33e13035d8c646bcb7c112289b96b,
         type: 3}
       propertyPath: m_Name
@@ -5931,31 +5896,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2800413910899183593, guid: 31e33e13035d8c646bcb7c112289b96b,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31e33e13035d8c646bcb7c112289b96b, type: 3}
---- !u!1 &2205991266395250083 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2205991265939815778, guid: 31e33e13035d8c646bcb7c112289b96b,
-    type: 3}
-  m_PrefabInstance: {fileID: 2205991266395250082}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2205991266395250084
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2205991266395250083}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4f09aa7d5784b2e910a8737a3653dbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &6871667996104336149
 PrefabInstance:
   m_ObjectHideFlags: 0

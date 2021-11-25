@@ -74,7 +74,10 @@ public class PlayerMovement : MonoBehaviour
 
         // jump
         if (Input.GetButton("Jump") && isGrounded)
+        {
             gravitationalForce.y = Mathf.Sqrt(-2 * jumpHeight * gravity);
+            AudioAssets.i.marioYa.Play();
+        }
 
         // move mario
         controller.Move((movement * speed * Time.deltaTime) + (gravitationalForce * Time.deltaTime));
