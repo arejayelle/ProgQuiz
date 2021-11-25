@@ -13,7 +13,7 @@ using UnityEngine;
 
 public class CoinManager : MonoBehaviour
 {
-    private static CoinManager instance;
+    public static CoinManager instance;
 
     private int numCoins = 0;
     
