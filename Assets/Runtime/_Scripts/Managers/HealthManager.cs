@@ -36,7 +36,8 @@ public class HealthManager : MonoBehaviour
 
     public void Heal()
     {
-        health += 1;
+        if(health< MaxHealth)
+            health += 1;
     }
     public void LoseHealth()
     {
