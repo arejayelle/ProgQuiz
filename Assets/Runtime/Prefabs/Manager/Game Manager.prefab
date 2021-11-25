@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2205991265939815779}
   - component: {fileID: 2205991265939815776}
+  - component: {fileID: 1581788767858111395}
   m_Layer: 0
   m_Name: Game Manager
   m_TagString: Untagged
@@ -45,6 +46,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinUIText: {fileID: 2205991264967446506}
+--- !u!114 &1581788767858111395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2205991265939815778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bcde5ef9b68ce34f818465e7f147b65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coinPlink:
+    clip: {fileID: 8300000, guid: 4ff88fa7161c22c49bc2ab21977aec1f, type: 3}
+    volume: 1
+    pitch: 3
+    source: {fileID: 0}
+  marioYa:
+    clip: {fileID: 8300000, guid: 7576fdcdb406cc94abb2c53e02988df5, type: 3}
+    volume: 1
+    pitch: 0.5
+    source: {fileID: 0}
 --- !u!1001 &8614315772837921558
 PrefabInstance:
   m_ObjectHideFlags: 0
