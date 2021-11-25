@@ -12,26 +12,29 @@ using UnityEngine;
 //
 // Audio Manager singleton to handle audio
 
-public class AudioManager : MonoBehaviour
+public class AudioAssets : MonoBehaviour
 {
-    public static AudioManager instance;
+    private static AudioAssets instance;
+    
+    public static AudioAssets i
+    {
+        get
+        {
+            return instance;
+        }
+    }
 
-    private void Awake()
+    private void Start()
     {
         if (instance == null)
             instance = this;
         
+        coinPlink.setSource(gameObject.AddComponent<AudioSource>());
+        marioYa.setSource(gameObject.AddComponent<AudioSource>());
     }
+    
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public Sound coinPlink;
+    public Sound marioYa;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
