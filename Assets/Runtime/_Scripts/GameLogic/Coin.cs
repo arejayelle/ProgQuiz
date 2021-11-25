@@ -10,6 +10,7 @@ public class Coin : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             CoinManager.instance.gainCoin();
+            HealthManager.instance.Heal();
             Destroy(gameObject);
         }
     }
