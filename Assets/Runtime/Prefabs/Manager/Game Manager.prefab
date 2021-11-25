@@ -61,12 +61,12 @@ MonoBehaviour:
   coinPlink:
     clip: {fileID: 8300000, guid: 4ff88fa7161c22c49bc2ab21977aec1f, type: 3}
     volume: 1
-    pitch: 3
+    pitch: 1
     source: {fileID: 0}
   marioYa:
     clip: {fileID: 8300000, guid: 7576fdcdb406cc94abb2c53e02988df5, type: 3}
     volume: 1
-    pitch: 0.5
+    pitch: 1
     source: {fileID: 0}
 --- !u!1001 &8614315772837921558
 PrefabInstance:
@@ -184,6 +184,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7570959786229058812, guid: 6edbf84bfa0de0f438a1e9482b188b42,
+        type: 3}
+      propertyPath: m_fontColor.g
+      value: 0.80137265
+      objectReference: {fileID: 0}
+    - target: {fileID: 7570959786229058812, guid: 6edbf84bfa0de0f438a1e9482b188b42,
+        type: 3}
+      propertyPath: m_fontColor.r
+      value: 0.8679245
+      objectReference: {fileID: 0}
+    - target: {fileID: 7570959786229058812, guid: 6edbf84bfa0de0f438a1e9482b188b42,
+        type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4278242525
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6edbf84bfa0de0f438a1e9482b188b42, type: 3}
