@@ -13,7 +13,6 @@ namespace _Runtime.Managers
     {
         public static SoundsList instance;
         
-        public 
         private void Awake()
         {
             if (instance == null)
