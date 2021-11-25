@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using _Runtime.Managers;
 using TMPro;
 using UnityEngine;
 
@@ -35,5 +36,6 @@ public class CoinManager : MonoBehaviour
     {
         numCoins++;
         coinUIText.text = $"x {numCoins}";
+        AudioAssets.i.coinPlink.Play();
     }
 }
