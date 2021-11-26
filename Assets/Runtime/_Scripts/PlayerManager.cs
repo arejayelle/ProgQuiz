@@ -33,5 +33,18 @@ namespace _Runtime
                     break;
             }
         }
+        
+        #region Animator
+
+        public void animJump(bool jump)
+        {
+            anim.SetBool("Jump", jump);
+        } 
+    
+        public void animRun(bool run)
+        {
+            anim.SetBool("Run", run);
+        }
+        #endregion
     }
 }
