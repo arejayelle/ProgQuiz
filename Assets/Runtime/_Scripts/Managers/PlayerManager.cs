@@ -1,6 +1,7 @@
 using System;
 using _Runtime;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 // ------------------------------------------------------------------------------
 // Quiz
@@ -33,6 +34,14 @@ public class PlayerManager : MonoBehaviour
             default:
                 break;
         }
+
+        SceneManager.LoadScene("LoseScreen");
+
+    }
+
+    private void Despawn()
+    {
+        Destroy(gameObject);
     }
 
     #region movement
@@ -45,7 +54,6 @@ public class PlayerManager : MonoBehaviour
     }
 
     #endregion
-
 
     #region Animator
 
