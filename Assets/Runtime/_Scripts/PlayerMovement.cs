@@ -21,6 +21,7 @@ public class PlayerMovement : MonoBehaviour
     private bool isGrounded;
     private bool jumpMomentumCheck;
 
+
     private void Update()
     {
         // calculate movement input
@@ -35,6 +36,11 @@ public class PlayerMovement : MonoBehaviour
         {
             // look in the direction of the movement
             transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(movement), rotationSpeed * Time.deltaTime);
+            PlayerManager.instance.animRun(true);
+        }
+        else
+        {
+            PlayerManager.instance.animRun(false);
         }
 
         // check if mario is grounded
@@ -60,6 +66,7 @@ public class PlayerMovement : MonoBehaviour
             // mario is standing on ground
             gravitationalForce.y = gravity * Time.deltaTime;
             jumpMomentumCheck = true;
+            PlayerManager.instance.animJump(false);
         }
         else
         {
@@ -71,12 +78,13 @@ public class PlayerMovement : MonoBehaviour
                 gravitationalForce.y += gravity * Time.deltaTime;
             }
         }
-
+        
         // jump
         if (Input.GetButton("Jump") && isGrounded)
         {
             gravitationalForce.y = Mathf.Sqrt(-2 * jumpHeight * gravity);
             AudioAssets.i.marioYa.Play();
+            PlayerManager.instance.animJump(true);
         }
 
         // move mario
