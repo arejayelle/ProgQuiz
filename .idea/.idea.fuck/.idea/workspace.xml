@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a5d740d-905a-459f-addf-905451c0c107" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.fuck/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.fuck/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BombombBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BombombBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runtime/Prefabs/Enemies/Bombombs/Bobomb.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runtime/Prefabs/Enemies/Bombombs/Bobomb.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Runtime/_Scenes/BombombBattlefield.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runtime/_Scenes/BombombBattlefield.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,12 +26,14 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/ThwompBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ThwompButt.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/BombombBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ca496b8c93454b2f9b9924292c19379f13b800/3d/9c20c9b4/Color.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Runtime/_Scripts/Sound.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Tests/Runtime/Canvas/SiblingOrderChangesLayout.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Runtime/_Scripts/PlayerCamera.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Quiz_40061228/Assets/_Scripts/Coin.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/BBExplodeTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Envoy-Game/Assets/TimerCountdown.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="21SlklbjTfCOMClfwvWbZLQI6cm" />
