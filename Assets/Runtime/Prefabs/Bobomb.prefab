@@ -108,6 +108,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   agent: {fileID: 7843491703250355066}
+  animator: {fileID: 7548915408756642969}
 --- !u!135 &7715653808542508118
 SphereCollider:
   m_ObjectHideFlags: 0
