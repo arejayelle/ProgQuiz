@@ -36,12 +36,17 @@ public class HealthManager : MonoBehaviour
 
     public void Heal()
     {
-        if(health< MaxHealth)
+        if (health < MaxHealth)
+        {
             health += 1;
+            UpdateDisplay();
+
+        }
     }
-    public void LoseHealth()
+    public void LoseHealth(int amt)
     {
-        health -= 1;
+        health -= amt;
+        UpdateDisplay();
     }
 
     private void UpdateDisplay()
