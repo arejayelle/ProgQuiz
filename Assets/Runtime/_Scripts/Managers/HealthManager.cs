@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using _Runtime;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -43,10 +44,12 @@ public class HealthManager : MonoBehaviour
 
         }
     }
-    public void LoseHealth(int amt)
+    public void LoseHealth(int amt, DeathType type = DeathType.Health)
     {
         health -= amt;
         UpdateDisplay();
+        if(health <=0)
+            PlayerManager.instance.Die(type);
     }
 
     private void UpdateDisplay()

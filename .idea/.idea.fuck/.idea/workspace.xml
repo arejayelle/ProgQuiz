@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="2a5d740d-905a-459f-addf-905451c0c107" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.fuck/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.fuck/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BombombBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BombombBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Runtime/Prefabs/Enemies/Bombombs/Bobomb.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runtime/Prefabs/Enemies/Bombombs/Bobomb.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Runtime/_Scenes/BombombBattlefield.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runtime/_Scenes/BombombBattlefield.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runtime/_Scripts/Managers/HealthManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runtime/_Scripts/Managers/HealthManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runtime/_Scripts/Managers/PlayerManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runtime/_Scripts/Managers/PlayerManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ThwompButt.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ThwompButt.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +35,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Runtime/_Scripts/PlayerCamera.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Quiz_40061228/Assets/_Scripts/Coin.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/BBExplodeTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LoseScreen.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Envoy-Game/Assets/TimerCountdown.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="21SlklbjTfCOMClfwvWbZLQI6cm" />
