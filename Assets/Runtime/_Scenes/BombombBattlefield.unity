@@ -6242,9 +6242,9 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 883491759}
   m_PrefabAsset: {fileID: 0}
---- !u!195 &888742497 stripped
-NavMeshAgent:
-  m_CorrespondingSourceObject: {fileID: 7843491703250355066, guid: bfca6d41cdbf459409c6d0a68a82495d,
+--- !u!95 &888742500 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 7548915408756642969, guid: bfca6d41cdbf459409c6d0a68a82495d,
     type: 3}
   m_PrefabInstance: {fileID: 1859746957}
   m_PrefabAsset: {fileID: 0}
@@ -12687,9 +12687,9 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1610357906193373869, guid: bfca6d41cdbf459409c6d0a68a82495d,
         type: 3}
-      propertyPath: agent
+      propertyPath: animator
       value: 
-      objectReference: {fileID: 888742497}
+      objectReference: {fileID: 888742500}
     - target: {fileID: 4295487506235363751, guid: bfca6d41cdbf459409c6d0a68a82495d,
         type: 3}
       propertyPath: m_RootOrder
@@ -12755,11 +12755,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bobomb
-      objectReference: {fileID: 0}
-    - target: {fileID: 7715653808542508118, guid: bfca6d41cdbf459409c6d0a68a82495d,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bfca6d41cdbf459409c6d0a68a82495d, type: 3}

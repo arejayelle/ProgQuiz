@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2a5d740d-905a-459f-addf-905451c0c107" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.fuck/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.fuck/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Runtime/Prefabs/Bobomb.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runtime/Prefabs/Bobomb.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BombombBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BombombBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runtime/Prefabs/Enemies/Bombombs/Bobomb.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runtime/Prefabs/Enemies/Bombombs/Bobomb.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Runtime/_Scenes/BombombBattlefield.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runtime/_Scenes/BombombBattlefield.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Runtime/_Scripts/Managers/PlayerManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runtime/_Scripts/Managers/PlayerManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
