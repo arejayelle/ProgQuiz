@@ -6061,6 +6061,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogTrigger
       objectReference: {fileID: 0}
+    - target: {fileID: 6703466526841197781, guid: 4ef60b80c51e52242a639c6dc14bfb07,
+        type: 3}
+      propertyPath: dialog.sentences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6703466526841197781, guid: 4ef60b80c51e52242a639c6dc14bfb07,
+        type: 3}
+      propertyPath: dialog.sentences.Array.data[0]
+      value: Hey wanna race? First one to the top gets a Star
+      objectReference: {fileID: 0}
+    - target: {fileID: 6703466526841197781, guid: 4ef60b80c51e52242a639c6dc14bfb07,
+        type: 3}
+      propertyPath: dialog.sentences.Array.data[1]
+      value: You up for the challenge?
+      objectReference: {fileID: 0}
+    - target: {fileID: 6703466526841197781, guid: 4ef60b80c51e52242a639c6dc14bfb07,
+        type: 3}
+      propertyPath: dialog.sentences.Array.data[2]
+      value: Hey wanna race? First one to the top gets a Star
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ef60b80c51e52242a639c6dc14bfb07, type: 3}
 --- !u!1001 &6871667996104336149
