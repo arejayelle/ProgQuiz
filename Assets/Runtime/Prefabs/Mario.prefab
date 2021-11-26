@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 5907997634546802870}
   - component: {fileID: 8298486093859661849}
   - component: {fileID: 5899314696161450569}
-  - component: {fileID: 8282923465379108464}
+  - component: {fileID: 5586063490468940033}
   m_Layer: 0
   m_Name: Mario
   m_TagString: Player
@@ -139,14 +139,27 @@ CapsuleCollider:
   m_Height: 0.95
   m_Direction: 1
   m_Center: {x: 0, y: 0.47, z: 0}
---- !u!95 &8282923465379108464
+--- !u!114 &5586063490468940033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4743521473014327864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5a0c488451121f4baf6e48584b48e7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 0}
+--- !u!95 &5233045346205707594
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4743521473014327864}
+  m_GameObject: {fileID: 5349299454694138371}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 92b0a6bdf017b7a40aed96606c1d172d, type: 2}
@@ -352,6 +365,12 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 9fccf50bf86255c4281169dd2550539d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6685565c872ff074fbc3b3d1d437cba8, type: 3}
+--- !u!1 &5349299454694138371 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6685565c872ff074fbc3b3d1d437cba8,
+    type: 3}
+  m_PrefabInstance: {fileID: 5115506791042588498}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4717334997165177017 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6685565c872ff074fbc3b3d1d437cba8,
