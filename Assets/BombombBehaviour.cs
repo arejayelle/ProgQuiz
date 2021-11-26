@@ -9,12 +9,18 @@ public class BombombBehaviour : MonoBehaviour
     public NavMeshAgent agent;
 
     public Animator animator; 
-    private bool isStopped = false;
+
+    private void Start()
+    {
+        agent.stoppingDistance = 0.5f;
+    }
 
     private void Update()
     {
-        animator.SetBool("Moving", !agent.isStopped);
-
+        var distance = (agent.destination - agent.transform.position).magnitude;
+        
+        animator.SetBool("Moving", (distance > agent.stoppingDistance));
+        
     }
 
     private void OnTriggerEnter(Collider other)
@@ -31,17 +37,16 @@ public class BombombBehaviour : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             agent.SetDestination(other.gameObject.transform.position);
-            
         }
     }
 
     public void Explode()
     {
         // stop moving
-        isStopped = true;
-        agent.SetDestination(gameObject.transform.position);
+        agent.isStopped = true;
         animator.SetTrigger("Explode");
-        
+        HealthManager.instance.LoseHealth(3);
+        Destroy(gameObject);
     }
     
 }
