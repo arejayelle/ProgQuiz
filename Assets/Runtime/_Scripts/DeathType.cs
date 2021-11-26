@@ -5,7 +5,7 @@
 // For COMP 376 – Fall 2021
 // -----------------------------------------------------------------------------
 //
-// Class to represent a sound clip
+// Enum of types of death (that result in different death effects)
 
 namespace _Runtime
 {
