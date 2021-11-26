@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 5907997634546802870}
   - component: {fileID: 8298486093859661849}
   - component: {fileID: 5899314696161450569}
-  - component: {fileID: 5586063490468940033}
+  - component: {fileID: 7590614588417530212}
   m_Layer: 0
   m_Name: Mario
   m_TagString: Player
@@ -139,7 +139,7 @@ CapsuleCollider:
   m_Height: 0.95
   m_Direction: 1
   m_Center: {x: 0, y: 0.47, z: 0}
---- !u!114 &5586063490468940033
+--- !u!114 &7590614588417530212
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -148,10 +148,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 4743521473014327864}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5a0c488451121f4baf6e48584b48e7a, type: 3}
+  m_Script: {fileID: 11500000, guid: e155f9ec75ec2fb459ad0df0f9a25339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 0}
+  anim: {fileID: 5233045346205707594}
+  movementScript: {fileID: 5907997634546802870}
 --- !u!95 &5233045346205707594
 Animator:
   serializedVersion: 3
