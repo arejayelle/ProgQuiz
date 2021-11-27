@@ -22,7 +22,6 @@ public class PlayerMovement : MonoBehaviour
     private bool isGrounded;
     private bool jumpMomentumCheck;
 
-
     private void Update()
     {
         // calculate movement input
@@ -89,11 +88,33 @@ public class PlayerMovement : MonoBehaviour
         }
 
         // move mario
-        controller.Move((movement * speed * Time.deltaTime) + (gravitationalForce * Time.deltaTime));
+        var actualSpeed = isBoosted ? boostedSpeed : speed;
+        controller.Move((movement * actualSpeed * Time.deltaTime) + (gravitationalForce * Time.deltaTime));
     }
 
     private void OnCollisionEnter(Collision collision)
     {
         print(collision.collider.gameObject.name);
+    }
+    
+    private bool isBoosted = false;
+    [SerializeField, Min(0)] private float boostedSpeed = 8f;
+    private float boostStart;
+    [SerializeField] private float boostTime = 2f;
+    
+    private void CheckBoost()
+    {
+        var deltaTime = Time.time - boostStart;
+        if (deltaTime >= boostTime)
+        {
+            boostStart = -1;
+            isBoosted = false;
+        }
+    }
+
+    public void Boost()
+    {
+        boostStart = Time.time;
+        isBoosted = true;
     }
 }
