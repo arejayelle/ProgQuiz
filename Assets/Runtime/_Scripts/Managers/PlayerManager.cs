@@ -46,11 +46,16 @@ public class PlayerManager : MonoBehaviour
 
     #region movement
 
-    public PlayerMovement movementScript;
+    [SerializeField] private PlayerMovement movementScript;
 
     public void SetMovement(bool enable)
     {
         movementScript.enabled = enable;
+    }
+
+    public void SpeedBoost()
+    {
+        movementScript.Boost();
     }
 
     #endregion
