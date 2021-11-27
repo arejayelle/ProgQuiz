@@ -37,5 +37,6 @@ public class CoinManager : MonoBehaviour
         numCoins++;
         coinUIText.text = $"x {numCoins}";
         AudioAssets.i.coinPlink.Play();
+        PlayerManager.instance.SpeedBoost();
     }
 }
